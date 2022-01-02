@@ -23,17 +23,16 @@
   }
 
   .separator {
-    margin-left: 40%;
-    margin-right: 40%;
     border-top: 5px solid black;
   }
 
   .social-icons {
-    margin-left: 40%;
-    margin-right: 40%;
-    display: flex;
-  column-gap: 20px;
-  justify-content: space-between;
+  // column-gap: 20px;
+  // justify-content: space-between;
+  }
+
+  .hero-bg {
+    background-image: url(../../assets/images/layered-waves-haikei.svg)
   }
 // .floating-icons {
 //     position: absolute;

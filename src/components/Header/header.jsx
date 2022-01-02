@@ -1,8 +1,8 @@
 export default function Header() {
   return (
-    <div className="w-full">
-        <nav className="bg-emerald-900 shadow-lg">
-            <div className="md:flex items-center justify-between py-2 px-8 md:px-12">
+    <div className="absolute w-full pt-10 px-52 md:px-8 sm:px-0">
+        <nav className="bg-emerald-900">
+            <div className="md:flex items-center justify-between py-2 px-8 md:px-12 sm:px-8">
                 <div className="flex justify-between items-center">
                 <div className="text-2xl font-bold text-white md:text-3xl">
                         <a href="#">JL</a>
