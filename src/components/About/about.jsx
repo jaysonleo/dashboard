@@ -71,7 +71,7 @@ const careers = [
         much more familiar with the tech stack of <b>React and Node.js</b>. I'm
         also a newbie when it comes to UI and UX Design.
       </p>
-      <a target="_blank" href="mailto: jaseleodones@gmail.com">
+      <a target="_blank" rel="noreferrer" href="mailto: jaseleodones@gmail.com">
         <FontAwesomeIcon color="blue" size="1x" icon={faEnvelope} className="mr-2 email-link" />
         <i className="underline text-blue-600 hover:text-blue-800">Send Email</i>
       </a>
