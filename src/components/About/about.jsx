@@ -3,12 +3,6 @@ import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export default function About() {
-//   const careers = []
-//   careers["title a"] = {foo: 23, bar: "abcd"}
-//   careers["title b"] = {foo: 23, bar: "abcd"}
-//   careers["title c"] = {foo: 23, bar: "abcd"}
-//   careers["title d"] = {foo: 23, bar: "abcd"}
-//   console.log('careers',careers)
 
 const careers = [
     {
