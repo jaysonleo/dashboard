@@ -36,3 +36,23 @@
     transform: rotate(360deg);
   }
 }
+
+*, a, p, h1, h2, li {
+  @apply text-black;
+}
+
+h1 {
+  @apply text-4xl;
+  @apply font-bold;
+  @apply my-4;
+}
+
+p {
+  @apply text-lg;
+}
+
+h2 {
+  @apply text-2xl;
+  @apply font-bold;
+  @apply my-4;
+}
