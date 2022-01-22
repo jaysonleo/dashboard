@@ -54,17 +54,24 @@ const careers = [
 
   return (
     <div className="pt-11 mt-4">
-      <h1>Hello, I'm Jayson!</h1>
+      <h1>Hello, I'm <span className='text-emerald-900'>Jayson!</span></h1>
       <p>
         
         I am a <b>Front End Developer</b> and I'm currently interested in
         <b> React, UI and UX design</b>. I am going to share the things I learned
-        on my blog and twitter account, so that I can also help other developers
+        on my&nbsp;
+        <a target="_blank" rel="noreferrer" href="https://hashnode.com/@jaysonleo">
+          <i className="underline text-blue-600 hover:text-blue-800">blog</i>
+        </a> and&nbsp;
+        <a target="_blank" rel="noreferrer" href="https://twitter.com/jaywhocodes">
+          <i className="underline text-blue-600 hover:text-blue-800">twitter</i>
+        </a>&nbsp;account, 
+        so that I can also help other developers
         who might encounter the same issues that I had. I will also post some of
         the helpful tips that benefited me along my journey.
       </p>
 
-      <h1>Career</h1>
+      <h1 className='text-emerald-900'>Career</h1>
       <p>
         
         I'm currently available for any <b>remote job opportunities</b>! I'm
@@ -77,7 +84,6 @@ const careers = [
       </a>
 
       <div className="my-4">
-          
         {careers.map((career,index) => (
             <>
             <div className='grid grid-cols-2'>

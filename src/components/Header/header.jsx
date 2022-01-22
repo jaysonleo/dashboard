@@ -40,12 +40,8 @@ export default function Header() {
       <div id="sideMenuHideOnMobile" className="bg-white font-semibold z-10 rounded-bl-md flex absolute top-0 
       right-0 transition-all duration-500 transform translate-x-0 w-1/2 md:w-auto px-3 md:px-0 flex-col 
       md:flex-row -translate-y-full md:translate-y-0 md:mt-1 md:items-center md:mx-1 md:uppercase">
-          {/* <a href="#" className="mx-0 sm:mx-2 my-2 border-b-2 border-transparent hover:border-emerald-600 
-          hover:text-emerald-700 transition-all duration-500 py-1 sm:p-0">Project</a>
-          <a href="#" className="mx-0 sm:mx-2 my-2 border-b-2 border-transparent hover:border-emerald-600 
-          hover:text-emerald-700 transition-all duration-500 py-1 sm:p-0">Resource</a>
-          <a href="#" className="mx-0 sm:mx-2 my-2 border-b-2 border-transparent hover:border-emerald-600 
-          hover:text-emerald-700 transition-all duration-500 py-1 sm:p-0">About</a> */}
+          <a href="#projects" className="mx-0 sm:mx-2 my-2 border-b-2 border-transparent hover:border-emerald-600 
+          hover:text-emerald-700 transition-all duration-500 py-1 sm:p-0">Projects</a>
           <a target="_blank" href="https://hashnode.com/@jaysonleo" className="mx-0 sm:mx-2 my-2 border-b-2 border-transparent hover:border-emerald-600 
           hover:text-emerald-700 transition-all duration-500 py-1 sm:p-0">Blog</a>
       </div>

@@ -56,3 +56,16 @@ h2 {
   @apply font-bold;
   @apply my-4;
 }
+
+@media only screen and (max-width: 600px) {
+  p {
+    @apply text-sm;
+  }
+
+  h2 {
+    @apply text-lg;
+    @apply font-bold;
+    @apply my-4;
+  }
+}
+
