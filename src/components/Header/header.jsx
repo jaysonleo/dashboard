@@ -25,7 +25,8 @@ export default function Header() {
      <>
      <nav className="bg-white fixed max-w-screen-lg z-10 mx-auto inset-x-0 top-0 flex justify-between items-center">
       
-      <a className="font-extrabold m-3 uppercase inline-flex hover:text-emerald-700 transition-all duration-500">
+      <a href="https://www.jaysonleodones.com" 
+      className="font-extrabold m-3 uppercase inline-flex hover:text-emerald-700 transition-all duration-500">
         @jaywhocodes
       </a>
     
